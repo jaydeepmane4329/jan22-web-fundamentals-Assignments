@@ -1,0 +1,8 @@
+.tContent{    
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+#slash{
+    text-decoration:line-through;
+}

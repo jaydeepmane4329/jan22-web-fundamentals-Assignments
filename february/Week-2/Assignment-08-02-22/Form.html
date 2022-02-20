@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dummy Geekster Admission Form</title>
+  </head>
+  <body>
+    <h1>Apllication Form</h1>
+    <div>
+      <form action="">
+        <label for="Full Name">Full Name*</label>
+        <br /><br />
+        <input
+          type="text"
+          name="fullName"
+          pattern="[A-Za-z ]+"
+          placeholder="Enter full name"
+          required
+        />
+        <br /><br />
+        <label for="Email">Email*</label>
+        <br /><br />
+        <input type="email" name="email" placeholder="Enter Email" required />
+        <br /><br />
+        <label for="phone">Phone*</label>
+        <br /><br />
+        <input
+          type="tel"
+          name="phone"
+          pattern="[0-9]{10}"
+          placeholder="Enter Mobile number"
+          required
+        />
+        <br /><br />
+        <label for="Qualification">Highest Degree*</label>
+        <br /><br />
+        <select name="degree">
+          <option selected disabled>Select your Highest Qualification</option>
+          <option value="1">BE or B.Tech CS/IT</option>
+          <option value="2">BE or B.Tech Others</option>
+          <option value="3">MS or M.Tech CS/IT</option>
+          <option value="4">MS or M.Tech Others</option>
+          <option value="5">BCA</option>
+          <option value="6">MCA</option>
+          <option value="7">Others</option>
+        </select>
+        <br /><br />
+        <label for="Education">Year Of Completion*</label>
+        <br /><br />
+        <select name="yearOfPassing" id="">
+          <option selected disabled>Select Year Of Passing</option>
+          <option value="1">2018</option>
+          <option value="1">2019</option>
+          <option value="1">2020</option>
+          <option value="1">2021</option>
+          <option value="1">2022</option>
+          <option value="1">2023</option>
+        </select>
+        <br /><br />
+        <input type="checkbox" name="tnc" value="1" />By signing up, you agree
+        to the Terms and Conditions of Geekster (QuantumBit technologies Pvt.
+        Ltd)*. <br /><br />
+        <input type="submit" />
+        <input type="reset" />
+      </form>
+    </div>
+  </body>
+</html>

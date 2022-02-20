@@ -1,0 +1,22 @@
+body {
+  background-color: darkorchid;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+img {
+  border-radius: 50px;
+  margin: 2px;
+}
+img:hover {
+  transform: scale(1.2);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+  font-family: cursive;
+}

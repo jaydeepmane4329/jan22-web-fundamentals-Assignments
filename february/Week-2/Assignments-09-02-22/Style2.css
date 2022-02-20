@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.off{
+    background-color: rgb(243, 102, 102);
+}
+button{
+    width: 200px;
+    height: 25px;
+}

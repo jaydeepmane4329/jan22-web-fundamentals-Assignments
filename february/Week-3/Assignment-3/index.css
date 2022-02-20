@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+}
+table {
+  border-style: groove;
+  border-collapse: collapse;
+  text-align: left;
+}
+th {
+  background-color: white;
+}
+tr:nth-child(3n + 1) {
+  background-color: lightgray;
+}
+tr:nth-child(3n + 2) {
+  background-color: gray;
+}
+tr:nth-child(3n + 3) {
+  background-color: darkgray;
+}
+.tContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
