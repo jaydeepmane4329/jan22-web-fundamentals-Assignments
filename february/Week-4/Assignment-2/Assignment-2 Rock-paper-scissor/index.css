@@ -1,0 +1,78 @@
+body {
+  margin: 0%;
+}
+
+header {
+  width: 100%;
+  margin-top: -22px;
+  height: 70px;
+  text-align: center;
+  background-color: rgb(84, 240, 84);
+}
+header h1 {
+  padding: 15px;
+  font-size: 150%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#score {
+  background-color: grey;
+  height: 45px;
+}
+.my_score {
+  float: left;
+}
+.computer {
+  float: right;
+}
+
+.my_score,
+.computer {
+  font-size: 180%;
+  padding: 5px;
+  background-color: rgb(46, 23, 23);
+  color: white;
+  border-radius: 15px;
+}
+h2 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+#blocks {
+  display: flex;
+  justify-content: space-around;
+}
+
+#blocks > div {
+  background-color: darkorchid;
+  padding: 25px;
+  border-radius: 20px;
+  color: white;
+  font-size: large;
+  filter: drop-shadow(1px 1px 3px black);
+}
+
+#pictures {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+i {
+  font-size: 1000%;
+}
+
+#pictures p {
+  font-size: 200%;
+}
+
+#win {
+  text-align: center;
+  font-size: 250%;
+  font-family: "Courier New", Courier, monospace;
+  color: darkorange;
+  text-decoration: underline;
+}

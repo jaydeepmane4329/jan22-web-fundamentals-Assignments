@@ -1,0 +1,64 @@
+body {
+  background-color: grey;
+}
+#container {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  overflow: scroll;
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#chat-bot-body {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+}
+i {
+  padding: 5px;
+  margin-left: 5px;
+  float: right;
+}
+
+#header {
+  position: sticky;
+  top: 0;
+  background-color: rgb(170, 173, 173);
+  height: 30px;
+  box-shadow: 0px 0px 5px rgb(8, 8, 8);
+}
+
+.text {
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 7px;
+}
+
+p {
+  margin: 6px;
+  border: black 2px solid;
+  border-radius: 15px;
+  padding: 5px;
+  width: fit-content;
+}
+.sender {
+  float: left;
+}
+
+.reciever {
+  float: right;
+  clear: both;
+}
+
+.sender p {
+  background-color: #006aff;
+  color: white;
+}
+
+.reciever p {
+  background-color: white;
+}
