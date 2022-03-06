@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container {
+  width: 300px;
+  height: 350px;
+  background-color: black;
+  opacity: 0.8;
+  border-radius: 50px;
+  margin-top: 80px;
+}
+
+.form_body {
+  font-weight: 900;
+  text-align: center;
+}
+input {
+  background-color: black;
+  border: none;
+  width: 80%;
+  height: 25px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+i {
+  margin: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.button {
+  background-color: rgb(4, 138, 4);
+  border: solid 1px wheat;
+  border-radius: 5px;
+  color: white;
+  width: 85%;
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+  margin-left: 20px;
+}
+input::placeholder {
+  color: white;
+  font-weight: bold;
+}
+
+h1 {
+  color: white;
+}
+p {
+  margin: 0%;
+  color: white;
+}
+a {
+  color: rgb(220, 220, 241);
+  font-weight: 900;
+}
