@@ -1,0 +1,52 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    background-color: tomato;
+    border-radius: 50px;
+}
+
+#container h1{
+ font-size: 50px;
+ color: darkorchid;
+ font-family: cursive;
+}
+
+#to-do input{
+    width: 280px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#to-do button{
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(173, 173, 230);
+    border: none;
+    border-radius: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.to_do_style{
+    text-align: center;
+    background-color: white;
+    width: 350px;
+    margin:  10px auto;
+    border-radius: 50px;
+    padding: 10px;
+    list-style: none;
+    font-size: 25px;
+    font-family: cursive;
+}
